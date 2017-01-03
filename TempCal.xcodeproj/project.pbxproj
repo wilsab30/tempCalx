@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECB840931E1C42FA0089661E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB840921E1C42FA0089661E /* AppDelegate.swift */; };
+		ECB840951E1C42FA0089661E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB840941E1C42FA0089661E /* ViewController.swift */; };
+		ECB840981E1C42FA0089661E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB840961E1C42FA0089661E /* Main.storyboard */; };
+		ECB8409B1E1C42FA0089661E /* TempCal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ECB840991E1C42FA0089661E /* TempCal.xcdatamodeld */; };
+		ECB8409D1E1C42FA0089661E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB8409C1E1C42FA0089661E /* Assets.xcassets */; };
+		ECB840A01E1C42FA0089661E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB8409E1E1C42FA0089661E /* LaunchScreen.storyboard */; };
+		ECB840AB1E1C42FA0089661E /* TempCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB840AA1E1C42FA0089661E /* TempCalTests.swift */; };
+		ECB840B61E1C42FA0089661E /* TempCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECB840B51E1C42FA0089661E /* TempCalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECB840A71E1C42FA0089661E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB840871E1C42FA0089661E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB8408E1E1C42FA0089661E;
+			remoteInfo = TempCal;
+		};
+		ECB840B21E1C42FA0089661E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECB840871E1C42FA0089661E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECB8408E1E1C42FA0089661E;
+			remoteInfo = TempCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECB8408F1E1C42FA0089661E /* TempCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TempCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB840921E1C42FA0089661E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECB840941E1C42FA0089661E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECB840971E1C42FA0089661E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECB8409A1E1C42FA0089661E /* TempCal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TempCal.xcdatamodel; sourceTree = "<group>"; };
+		ECB8409C1E1C42FA0089661E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECB8409F1E1C42FA0089661E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECB840A11E1C42FA0089661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB840A61E1C42FA0089661E /* TempCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB840AA1E1C42FA0089661E /* TempCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCalTests.swift; sourceTree = "<group>"; };
+		ECB840AC1E1C42FA0089661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB840B11E1C42FA0089661E /* TempCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECB840B51E1C42FA0089661E /* TempCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempCalUITests.swift; sourceTree = "<group>"; };
+		ECB840B71E1C42FA0089661E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECB8408C1E1C42FA0089661E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840A31E1C42FA0089661E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840AE1E1C42FA0089661E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECB840861E1C42FA0089661E = {
+			isa = PBXGroup;
+			children = (
+				ECB840911E1C42FA0089661E /* TempCal */,
+				ECB840A91E1C42FA0089661E /* TempCalTests */,
+				ECB840B41E1C42FA0089661E /* TempCalUITests */,
+				ECB840901E1C42FA0089661E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECB840901E1C42FA0089661E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECB8408F1E1C42FA0089661E /* TempCal.app */,
+				ECB840A61E1C42FA0089661E /* TempCalTests.xctest */,
+				ECB840B11E1C42FA0089661E /* TempCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECB840911E1C42FA0089661E /* TempCal */ = {
+			isa = PBXGroup;
+			children = (
+				ECB840921E1C42FA0089661E /* AppDelegate.swift */,
+				ECB840941E1C42FA0089661E /* ViewController.swift */,
+				ECB840961E1C42FA0089661E /* Main.storyboard */,
+				ECB8409C1E1C42FA0089661E /* Assets.xcassets */,
+				ECB8409E1E1C42FA0089661E /* LaunchScreen.storyboard */,
+				ECB840A11E1C42FA0089661E /* Info.plist */,
+				ECB840991E1C42FA0089661E /* TempCal.xcdatamodeld */,
+			);
+			path = TempCal;
+			sourceTree = "<group>";
+		};
+		ECB840A91E1C42FA0089661E /* TempCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB840AA1E1C42FA0089661E /* TempCalTests.swift */,
+				ECB840AC1E1C42FA0089661E /* Info.plist */,
+			);
+			path = TempCalTests;
+			sourceTree = "<group>";
+		};
+		ECB840B41E1C42FA0089661E /* TempCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECB840B51E1C42FA0089661E /* TempCalUITests.swift */,
+				ECB840B71E1C42FA0089661E /* Info.plist */,
+			);
+			path = TempCalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECB8408E1E1C42FA0089661E /* TempCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB840BA1E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCal" */;
+			buildPhases = (
+				ECB8408B1E1C42FA0089661E /* Sources */,
+				ECB8408C1E1C42FA0089661E /* Frameworks */,
+				ECB8408D1E1C42FA0089661E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TempCal;
+			productName = TempCal;
+			productReference = ECB8408F1E1C42FA0089661E /* TempCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECB840A51E1C42FA0089661E /* TempCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB840BD1E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCalTests" */;
+			buildPhases = (
+				ECB840A21E1C42FA0089661E /* Sources */,
+				ECB840A31E1C42FA0089661E /* Frameworks */,
+				ECB840A41E1C42FA0089661E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB840A81E1C42FA0089661E /* PBXTargetDependency */,
+			);
+			name = TempCalTests;
+			productName = TempCalTests;
+			productReference = ECB840A61E1C42FA0089661E /* TempCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECB840B01E1C42FA0089661E /* TempCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECB840C01E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCalUITests" */;
+			buildPhases = (
+				ECB840AD1E1C42FA0089661E /* Sources */,
+				ECB840AE1E1C42FA0089661E /* Frameworks */,
+				ECB840AF1E1C42FA0089661E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECB840B31E1C42FA0089661E /* PBXTargetDependency */,
+			);
+			name = TempCalUITests;
+			productName = TempCalUITests;
+			productReference = ECB840B11E1C42FA0089661E /* TempCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECB840871E1C42FA0089661E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Sabrina Wilbert";
+				TargetAttributes = {
+					ECB8408E1E1C42FA0089661E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J5EPXUD2ER;
+						ProvisioningStyle = Automatic;
+					};
+					ECB840A51E1C42FA0089661E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J5EPXUD2ER;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECB8408E1E1C42FA0089661E;
+					};
+					ECB840B01E1C42FA0089661E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J5EPXUD2ER;
+						ProvisioningStyle = Automatic;
+						TestTargetID = ECB8408E1E1C42FA0089661E;
+					};
+				};
+			};
+			buildConfigurationList = ECB8408A1E1C42FA0089661E /* Build configuration list for PBXProject "TempCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECB840861E1C42FA0089661E;
+			productRefGroup = ECB840901E1C42FA0089661E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECB8408E1E1C42FA0089661E /* TempCal */,
+				ECB840A51E1C42FA0089661E /* TempCalTests */,
+				ECB840B01E1C42FA0089661E /* TempCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECB8408D1E1C42FA0089661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB840A01E1C42FA0089661E /* LaunchScreen.storyboard in Resources */,
+				ECB8409D1E1C42FA0089661E /* Assets.xcassets in Resources */,
+				ECB840981E1C42FA0089661E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840A41E1C42FA0089661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840AF1E1C42FA0089661E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECB8408B1E1C42FA0089661E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB840951E1C42FA0089661E /* ViewController.swift in Sources */,
+				ECB8409B1E1C42FA0089661E /* TempCal.xcdatamodeld in Sources */,
+				ECB840931E1C42FA0089661E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840A21E1C42FA0089661E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB840AB1E1C42FA0089661E /* TempCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECB840AD1E1C42FA0089661E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECB840B61E1C42FA0089661E /* TempCalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECB840A81E1C42FA0089661E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB8408E1E1C42FA0089661E /* TempCal */;
+			targetProxy = ECB840A71E1C42FA0089661E /* PBXContainerItemProxy */;
+		};
+		ECB840B31E1C42FA0089661E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECB8408E1E1C42FA0089661E /* TempCal */;
+			targetProxy = ECB840B21E1C42FA0089661E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECB840961E1C42FA0089661E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB840971E1C42FA0089661E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECB8409E1E1C42FA0089661E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECB8409F1E1C42FA0089661E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECB840B81E1C42FA0089661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECB840B91E1C42FA0089661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECB840BB1E1C42FA0089661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ECB840BC1E1C42FA0089661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		ECB840BE1E1C42FA0089661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempCal.app/TempCal";
+			};
+			name = Debug;
+		};
+		ECB840BF1E1C42FA0089661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TempCal.app/TempCal";
+			};
+			name = Release;
+		};
+		ECB840C11E1C42FA0089661E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TempCal;
+			};
+			name = Debug;
+		};
+		ECB840C21E1C42FA0089661E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = J5EPXUD2ER;
+				INFOPLIST_FILE = TempCalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QualityApps.TempCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TempCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECB8408A1E1C42FA0089661E /* Build configuration list for PBXProject "TempCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB840B81E1C42FA0089661E /* Debug */,
+				ECB840B91E1C42FA0089661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECB840BA1E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB840BB1E1C42FA0089661E /* Debug */,
+				ECB840BC1E1C42FA0089661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB840BD1E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB840BE1E1C42FA0089661E /* Debug */,
+				ECB840BF1E1C42FA0089661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECB840C01E1C42FA0089661E /* Build configuration list for PBXNativeTarget "TempCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECB840C11E1C42FA0089661E /* Debug */,
+				ECB840C21E1C42FA0089661E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ECB840991E1C42FA0089661E /* TempCal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ECB8409A1E1C42FA0089661E /* TempCal.xcdatamodel */,
+			);
+			currentVersion = ECB8409A1E1C42FA0089661E /* TempCal.xcdatamodel */;
+			path = TempCal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ECB840871E1C42FA0089661E /* Project object */;
+}
